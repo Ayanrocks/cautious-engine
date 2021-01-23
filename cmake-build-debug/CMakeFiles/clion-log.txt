@@ -1,0 +1,53 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ayan-work/code/cpp-api
+-- compiler: AppleClang
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR) 
+-- c-ares found!
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR GTEST_MAIN_LIBRARY) 
+-- use c++17
+-- jsoncpp verson:1.9.4
+-- Found UUID: /usr/local/lib/libuuid.dylib
+-- Brotli found
+-- pg inc: /usr/local/include/usr/local/include/postgresql/server
+-- libpq inc path:/usr/local/include/usr/local/include/postgresql/server
+-- libpq lib:/usr/local/lib/libpq.dylib
+-- Could NOT find MySQL (missing: MYSQL_LIBRARIES) 
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_INCLUDE_DIR) 
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/cmake.csp
+-- view classname:cmake
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/config.csp
+-- view classname:config
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/demoMain.csp
+-- view classname:demoMain
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/filter_cc.csp
+-- view classname:filter_cc
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/filter_h.csp
+-- view classname:filter_h
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/gitignore.csp
+-- view classname:gitignore
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/model_cc.csp
+-- view classname:model_cc
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/model_h.csp
+-- view classname:model_h
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/model_json.csp
+-- view classname:model_json
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/plugin_cc.csp
+-- view classname:plugin_cc
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/plugin_h.csp
+-- view classname:plugin_h
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/restful_controller_base_cc.csp
+-- view classname:restful_controller_base_cc
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/restful_controller_base_h.csp
+-- view classname:restful_controller_base_h
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/restful_controller_cc.csp
+-- view classname:restful_controller_cc
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/restful_controller_custom_cc.csp
+-- view classname:restful_controller_custom_cc
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/restful_controller_custom_h.csp
+-- view classname:restful_controller_custom_h
+-- cspFile:/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/templates/restful_controller_h.csp
+-- view classname:restful_controller_h
+-- bin:bin
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR GTEST_MAIN_LIBRARY) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/ayan-work/code/cpp-api/cmake-build-debug

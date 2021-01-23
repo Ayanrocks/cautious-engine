@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../../lib/libjsoncpp_static.a  CMakeFiles/jsoncpp_static.dir/json_reader.cpp.o CMakeFiles/jsoncpp_static.dir/json_value.cpp.o CMakeFiles/jsoncpp_static.dir/json_writer.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../../lib/libjsoncpp_static.a

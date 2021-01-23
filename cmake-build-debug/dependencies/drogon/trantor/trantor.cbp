@@ -1,0 +1,1869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trantor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\drogon\;CMake Files\dependencies\drogon\cmake\;CMake Files\dependencies\drogon\cmake\tests\;CMake Files\dependencies\drogon\cmake\templates\;CMake Files\dependencies\drogon\cmake_modules\;CMake Files\dependencies\drogon\trantor\;CMake Files\dependencies\drogon\trantor\cmake_modules\;CMake Files\dependencies\drogon\trantor\cmake\;CMake Files\dependencies\drogon\trantor\cmake\templates\;CMake Files\dependencies\drogon\trantor\trantor\;CMake Files\dependencies\drogon\trantor\trantor\tests\;CMake Files\dependencies\drogon\examples\;CMake Files\dependencies\drogon\drogon_ctl\;CMake Files\dependencies\drogon\lib\;CMake Files\dependencies\drogon\lib\tests\;CMake Files\dependencies\drogon\orm_lib\;CMake Files\dependencies\drogon\orm_lib\src\;CMake Files\dependencies\drogon\orm_lib\src\postgresql_impl\;CMake Files\dependencies\drogon\orm_lib\src\postgresql_impl\test\;CMake Files\dependencies\drogon\orm_lib\src\sqlite3_impl\;CMake Files\dependencies\drogon\orm_lib\src\sqlite3_impl\test\;CMake Files\dependencies\drogon\orm_lib\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trantor">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/lib/libtrantor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/third_party/wepoll"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 trantor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trantor/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/lib/libtrantor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/third_party/wepoll"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 trantor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_task_queue_test1">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/serial_task_queue_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 serial_task_queue_test1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_task_queue_test1/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/serial_task_queue_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 serial_task_queue_test1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="delayed_ssl_client_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/delayed_ssl_client_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 delayed_ssl_client_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="delayed_ssl_client_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/delayed_ssl_client_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 delayed_ssl_client_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="delayed_ssl_server_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/delayed_ssl_server_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 delayed_ssl_server_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="delayed_ssl_server_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/delayed_ssl_server_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 delayed_ssl_server_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="async_file_logger_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/async_file_logger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 async_file_logger_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="async_file_logger_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/async_file_logger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 async_file_logger_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="async_file_logger_test1">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/async_file_logger_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 async_file_logger_test1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="async_file_logger_test1/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/async_file_logger_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 async_file_logger_test1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/dns_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 dns_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/dns_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 dns_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="concurrent_task_queue_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/concurrent_task_queue_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 concurrent_task_queue_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="concurrent_task_queue_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/concurrent_task_queue_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 concurrent_task_queue_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_server_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/tcp_server_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 tcp_server_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_server_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/tcp_server_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 tcp_server_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_in_loop_test1">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/run_in_loop_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 run_in_loop_test1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_in_loop_test1/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/run_in_loop_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 run_in_loop_test1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logger_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/logger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 logger_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logger_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/logger_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 logger_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sendfile_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/sendfile_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 sendfile_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sendfile_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/sendfile_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 sendfile_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/tcp_client_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 tcp_client_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/tcp_client_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 tcp_client_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/timer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 timer_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/timer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 timer_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_task_queue_test2">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/serial_task_queue_test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 serial_task_queue_test2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_task_queue_test2/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/serial_task_queue_test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 serial_task_queue_test2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_in_loop_test2">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/run_in_loop_test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 run_in_loop_test2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_in_loop_test2/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/run_in_loop_test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 run_in_loop_test2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timing_wheel_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/timing_wheel_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 timing_wheel_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timing_wheel_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/timing_wheel_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 timing_wheel_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssl_server_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/ssl_server_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 ssl_server_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssl_server_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/ssl_server_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 ssl_server_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_test1">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/timer_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 timer_test1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer_test1/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/timer_test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 timer_test1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kickoff_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/kickoff_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 kickoff_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kickoff_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/kickoff_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 kickoff_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssl_client_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/ssl_client_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 ssl_client_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssl_client_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/ssl_client_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_C_COMPILER=&quot;clang&quot;"/>
+					<Add option="-DCMAKE_CXX_COMPILER=&quot;clang++&quot;"/>
+					<Add option="-DOPENSSL_ROOT_DIR=&quot;/usr/local/opt/openssl&quot;"/>
+					<Add option="-DOPENSSL_LIBRARIES=&quot;/usr/local/opt/openssl/lib&quot;"/>
+					<Add option="-DMYSQL_LIBRARIES=&quot;/usr/local/bin/mysql&quot;"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 ssl_client_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/drogon/trantor/trantor/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/Channel.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/Channel.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/EventLoop.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/EventLoop.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/EventLoopThread.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/EventLoopThread.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/EventLoopThreadPool.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/EventLoopThreadPool.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/InetAddress.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/InetAddress.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/TcpClient.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/TcpClient.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/TcpServer.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/TcpServer.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Acceptor.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Acceptor.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/AresResolver.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/AresResolver.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Connector.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Connector.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Poller.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Poller.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Socket.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Socket.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/TcpConnectionImpl.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/TcpConnectionImpl.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Timer.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/Timer.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/TimerQueue.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/TimerQueue.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/poller/EpollPoller.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/poller/EpollPoller.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/poller/KQueue.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/net/inner/poller/KQueue.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/AsyncFileLoggerTest.cc">
+			<Option target="async_file_logger_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/AsyncFileLoggerTest1.cc">
+			<Option target="async_file_logger_test1"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/ConcurrentTaskQueueTest.cc">
+			<Option target="concurrent_task_queue_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/DelayedSSLClientTest.cc">
+			<Option target="delayed_ssl_client_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/DelayedSSLServerTest.cc">
+			<Option target="delayed_ssl_server_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/DnsTest.cc">
+			<Option target="dns_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/KickoffTest.cc">
+			<Option target="kickoff_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/LoggerTest.cc">
+			<Option target="logger_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/RunInLoopTest1.cc">
+			<Option target="run_in_loop_test1"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/RunInLoopTest2.cc">
+			<Option target="run_in_loop_test2"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/SSLClientTest.cc">
+			<Option target="ssl_client_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/SSLServerTest.cc">
+			<Option target="ssl_server_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/SendfileTest.cc">
+			<Option target="sendfile_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/SerialTaskQueueTest1.cc">
+			<Option target="serial_task_queue_test1"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/SerialTaskQueueTest2.cc">
+			<Option target="serial_task_queue_test2"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/TcpClientTest.cc">
+			<Option target="tcp_client_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/TcpServerTest.cc">
+			<Option target="tcp_server_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/TimerTest.cc">
+			<Option target="timer_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/TimerTest1.cc">
+			<Option target="timer_test1"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/TimingWheelTest.cc">
+			<Option target="timing_wheel_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/AsyncFileLogger.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/AsyncFileLogger.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/ConcurrentTaskQueue.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/ConcurrentTaskQueue.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/Date.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/Date.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/LogStream.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/LogStream.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/Logger.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/Logger.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/MsgBuffer.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/MsgBuffer.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/SerialTaskQueue.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/SerialTaskQueue.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/TimingWheel.cc">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/utils/TimingWheel.h">
+			<Option target="trantor"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/DrogonUtilities.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/tests/normal_uuid_lib_test.cc">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/tests/ossp_uuid_lib_test.cc">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/tests/test_libpq_batch_mode.cc">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/templates/DrogonConfig.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/templates/config.h.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/templates/version.h.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindBrotli.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindJsoncpp.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindMySQL.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindSQLite3.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindUUID.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/Findpg.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/cmake_modules/Findc-ares.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/cmake/templates/TrantorConfig.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\trantor\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\examples\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\drogon_ctl\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\lib\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src/postgresql_impl/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\orm_lib\src\postgresql_impl\test\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src/sqlite3_impl/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\orm_lib\src\sqlite3_impl\test\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\orm_lib\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

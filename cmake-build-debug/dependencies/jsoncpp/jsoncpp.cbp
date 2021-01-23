@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jsoncpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\jsoncpp\;CMake Files\dependencies\jsoncpp\include\;CMake Files\dependencies\jsoncpp\cmake\;CMake Files\dependencies\jsoncpp\pkg-config\;CMake Files\dependencies\jsoncpp\src\;CMake Files\dependencies\jsoncpp\src\lib_json\;CMake Files\dependencies\jsoncpp\src\jsontestrunner\;CMake Files\dependencies\jsoncpp\src\test_lib_json\;CMake Files\dependencies\drogon\;CMake Files\dependencies\drogon\cmake\;CMake Files\dependencies\drogon\cmake\tests\;CMake Files\dependencies\drogon\cmake\templates\;CMake Files\dependencies\drogon\cmake_modules\;CMake Files\dependencies\drogon\trantor\;CMake Files\dependencies\drogon\trantor\cmake_modules\;CMake Files\dependencies\drogon\trantor\cmake\;CMake Files\dependencies\drogon\trantor\cmake\templates\;CMake Files\dependencies\drogon\trantor\trantor\;CMake Files\dependencies\drogon\trantor\trantor\tests\;CMake Files\dependencies\drogon\examples\;CMake Files\dependencies\drogon\drogon_ctl\;CMake Files\dependencies\drogon\lib\;CMake Files\dependencies\drogon\lib\tests\;CMake Files\dependencies\drogon\orm_lib\;CMake Files\dependencies\drogon\orm_lib\src\;CMake Files\dependencies\drogon\orm_lib\src\postgresql_impl\;CMake Files\dependencies\drogon\orm_lib\src\postgresql_impl\test\;CMake Files\dependencies\drogon\orm_lib\src\sqlite3_impl\;CMake Files\dependencies\drogon\orm_lib\src\sqlite3_impl\test\;CMake Files\dependencies\drogon\orm_lib\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_lib">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/lib/libjsoncpp.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_lib/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/lib/libjsoncpp.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_object">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/jsoncpp_object.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_object"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_object/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/jsoncpp_object.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_object/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_static">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/lib/libjsoncpp_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_static/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/lib/libjsoncpp_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_check">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_check"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_readerwriter_tests">
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_readerwriter_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsontestrunner_exe">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsontestrunner_exe/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_test">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_test/fast">
+				<Option output="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ayan-work/code/cpp-api/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/third_party"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/inc"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/include/json"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ayan-work/code/cpp-api/cmake-build-debug/dependencies/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/assertions.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/config.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/forwards.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/json_features.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/reader.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/value.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/version.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/json/writer.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner/main.cpp">
+			<Option target="jsontestrunner_exe"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/json_reader.cpp">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/json_tool.h">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/json_value.cpp">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/json_valueiterator.inl">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/json_writer.cpp">
+			<Option target="jsoncpp_lib"/>
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json/fuzz.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json/fuzz.h">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json/jsontest.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json/jsontest.h">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json/main.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/CTestConfig.cmake">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/version.in">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\include\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/PreventInBuildInstalls.cmake">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\include\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/include/PreventInSourceBuilds.cmake">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\include\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/pkg-config/jsoncpp.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\pkg-config\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\src\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\src\lib_json\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/jsontestrunner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\src\jsontestrunner\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/jsoncpp/src/test_lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\jsoncpp\src\test_lib_json\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/DrogonUtilities.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/tests/normal_uuid_lib_test.cc">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/tests/ossp_uuid_lib_test.cc">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/tests/test_libpq_batch_mode.cc">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/templates/DrogonConfig.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/templates/config.h.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake/templates/version.h.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindBrotli.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindJsoncpp.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindMySQL.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindSQLite3.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/FindUUID.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/cmake_modules/Findpg.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/cmake_modules/Findc-ares.cmake">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/cmake/templates/TrantorConfig.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\cmake\templates\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/trantor/trantor/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\trantor\trantor\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\examples\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/drogon_ctl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\drogon_ctl\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/lib/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\lib\tests\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src/postgresql_impl/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\orm_lib\src\postgresql_impl\test\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/src/sqlite3_impl/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\orm_lib\src\sqlite3_impl\test\"/>
+		</Unit>
+		<Unit filename="/Users/ayan-work/code/cpp-api/dependencies/drogon/orm_lib/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\drogon\orm_lib\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
